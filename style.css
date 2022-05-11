@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(209, 209, 209);
+}
+#navbar{
+    font-weight: bold;
+}
+.perfil{
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.historia{
+    width: 100px;
+    height: 130px;
+    border: unset;
+}
+.add-historia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: dashed;
+    height: 100%;
+    color: rgb(180, 180, 180);
+    background-color: white;
+}
+.perfil-historia{
+    width: auto;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 12px;
+    align-items: center;
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/330acfbdef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <div id="navbar" class="container-fluid" style="background-color: white;">
+        <div class="container">
+            <div class="row p-2">
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-2 d-grid gap-2">
+                            <button class="btn btn-primary"><i class="fa-brands fa-skyatlas"></i></button>
+                        </div>
+                        <div class="col-10">
+                            <input type="text" class="form-control bg-light" placeholder="Buscar" name="" id="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-8">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-current="page" href="#" role="button" aria-expanded="false">Demo</a>
+                                  <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Home Default</a></li>
+                                    <li><a class="dropdown-item" href="#">Home Classic</a></li>
+                                    <li><a class="dropdown-item" href="#">Home Post</a></li>
+                                    <li><a class="dropdown-item" href="#">Home Video</a></li>
+                                    <li><a class="dropdown-item" href="#">Home Event</a></li>
+                                    <li><a class="dropdown-item" href="#">Landing Page</a></li>
+                                    <li><a class="dropdown-item" href="#">App Download</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-brands fa-sketch"></i> Buy Social</a></li>
+                                  </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pages</a>
+                                  <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Albums</a></li>
+                                    <li><a class="dropdown-item" href="#">Celebration</a></li>
+                                    <li><a class="dropdown-item" href="#">Messaging</a></li>
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">events</a></li>
+                                    <li><a class="dropdown-item" href="#">Events 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Events Details</a></li>
+                                    <li><a class="dropdown-item" href="#">Events Details 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Groups</a></li>
+                                    <li><a class="dropdown-item" href="#">Group Details</a></li>
+                                    <li><a class="dropdown-item" href="#">Post Videos</a></li>
+                                    <li><a class="dropdown-item" href="#">Post Video Details</a></li>
+                                    <li><a class="dropdown-item" href="#">Post Details</a></li>
+                                    <li><a class="dropdown-item" href="#">Video Details</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Dropdown Levels</a></li>
+                                  </ul>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-current="page" href="#" role="button" aria-expanded="false">Account</a>
+                                  <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Create a Page</a></li>
+                                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                                    <li><a class="dropdown-item" href="#">Notifications</a></li>
+                                    <li><a class="dropdown-item" href="#">Help Center</a></li>
+                                    <li><a class="dropdown-item" href="#">Help Details</a></li>
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle" href="#">Authentication</a>
+                                        <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
+                                            <li><a class="dropdown-item" href="#">Create a Page</a></li>
+                                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                                            <li><a class="dropdown-item" href="#">Notifications</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#">Sign In Advance</a></li>
+                                            <li><a class="dropdown-item" href="#">Sign Up Advance</a></li>
+                                            <li><a class="dropdown-item" href="#">Forgot Password Advance</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Error 404</a></li>
+                                    <li><a class="dropdown-item" href="#">Offline</a></li>
+                                    <li><a class="dropdown-item" href="#">Privacy & Terms</a></li>
+                                  </ul>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">My Network</a>
+                                </li>
+                              </ul>
+                        </div>
+                        <!--Estos son los botones a la derecha, donde está la foto de perfil-->
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary"><i class="fa-solid fa-message"></i></button></div>
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary"><i class="fa-solid fa-gear"></i></button></div>
+                                <div class="col-3 d-grip gap-2"><button class="btn btn-secondary"><i class="fa-solid fa-bell"></i></button></div>
+                                <div class="col-3 d-grip gap-2"><img width="40px" height="38px" class="avatar-img rounded-2" src="Me.png" alt="Me"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-4">
+        <div class="container">
+            <div class="row p-2">
+                <!--Perfil Izquierdo-->
+                <div class="col-3">
+                    <div class="card" style="height: 400px;">
+                        <!--Fondo-->
+                        <div heigth="10px" class="row">
+                            <img height="60px" src="Fondo.png" alt="Fondo" border-radius="10px">
+                        </div>
+                        <div class="card-img-overlay">
+                            <div class="text-center">
+                                <!--Foto de Perfil-->
+                                <div class="avatar avatar-lg mt-n5 mb-3">
+                                    <a href="#!"><img class="perfil" width="65px" class="avatar-img" src="Me.png" alt="Me"></a>
+                                </div>
+                                <h5 class="mb-0"> <a href="#!">Enrique Granados</a> </h5>
+                                <small>Ingeniero en Sistemas</small>
+                                <p class="mt-3">I'd love to change the world, but they won’t give me the source code.</p>
+                                <div class="hstack gap-2 gap-xl-3 justify-content-center">
+                                    <div>
+                                        <h6 class="mb-0">256</h6>
+                                        <small>Post</small>
+                                    </div>
+                                    <div class="vr"></div>
+                                    <div>
+                                        <h6 class="mb-0">2.5K</h6>
+                                        <small>Followers</small>
+                                    </div>
+                                    <div class="vr"></div>
+                                    <div>
+                                        <h6 class="mb-0">365</h6>
+                                        <small>Following</small>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Historias-->
+                <div class="col-6 historias">
+                    <div>
+                        <div class=" bg" style="height: 150px;">
+                            <!--Primer Carousel-->
+                            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="row p-2">
+                                        <div class="carousel-item active">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <div class="card historia add-historia">
+                                                        <center>
+                                                            <div>
+                                                                <i class="fa-solid fa-circle-plus"></i>
+                                                                <p class="card-text">Crea tu historia</p>
+                                                            </div>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                                <div class="col-2">
+                                                    <div class="card historia bg-dark text-white">
+                                                        <img class="card-img" src="BK.jpg" alt="Card Image">
+                                                        <div class="card-img-overlay">
+                                                            <div class="perfil-historia">
+                                                                <p class="card-text text-end">Boom Kitty</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-2">
+                                                    <div class="card historia bg-dark text-white">
+                                                        <img class="card-img" src="BF.jpg" alt="Card Image">
+                                                        <div class="card-img-overlay">
+                                                            <div class="perfil-historia">
+                                                                <p class="card-text text-end">Bossfight</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-2">
+                                                    <div class="card historia bg-dark text-white">
+                                                        <img class="card-img" src="T.jpg" alt="Card Image">
+                                                        <div class="card-img-overlay">
+                                                            <div class="perfil-historia">
+                                                                <p class="card-text text-end">Teminite</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-2">
+                                                    <div class="card historia bg-dark text-white">
+                                                        <img class="card-img" src="C.jpg" alt="Card Image">
+                                                        <div class="card-img-overlay">
+                                                            <div class="perfil-historia">
+                                                                <p class="card-text text-end">Creo</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Segundo Carousel-->
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <div class="card historia bg-dark text-white">
+                                                        <img class="card-img" src="TW.jpg" alt="Card Image">
+                                                        <div class="card-img-overlay">
+                                                            <div class="perfil-historia">
+                                                                <p class="card-text text-end">The Weeknd</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-2">
+                                                    <div class="card historia bg-dark text-white">
+                                                        <img class="card-img" src="DP.png" alt="Card Image">
+                                                        <div class="card-img-overlay">
+                                                            <div class="perfil-historia">
+                                                                <p class="card-text text-end">Daft Punk</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-2">
+                                                    <div class="card historia add-historia">
+                                                        <center>
+                                                            <div>
+                                                                <p class="card-text">Ver más...</p>
+                                                            </div>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            
+            <!--Perfil Derecho-->
+            <div class="col-3">
+                <div class="card" style="height: 400px;">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
